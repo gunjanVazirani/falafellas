@@ -1,0 +1,80 @@
+/*
+This code creates CSS for Question Creation for our application.
+================================
+Author: Gunjan Vazirani
+Last Updated: 04-04-2024
+================================
+*/
+
+.create-question-container {
+  margin-top: 15px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.create-question-container > * {
+  margin-bottom: 20px;
+}
+
+.option-row {
+  display: flex;
+  align-items: center;
+}
+
+.option-text-field {
+  margin-left: 10px;
+}
+
+/* Styles for radio buttons */
+.MuiFormControlLabel-root {
+  margin-right: 0; /* Adjust margin if needed */
+}
+
+.MuiRadio-root {
+  color: #f36b37; /* Change color if needed */
+}
+
+.MuiRadio-root:hover {
+  background-color: transparent; /* Change hover background color if needed */
+}
+
+.Mui-checked .MuiRadio-root {
+  color: #f36b37; /* Change color of checked radio button if needed */
+}
+
+.option-row {
+  display: flex;
+  align-items: flex-start; /* Align items at the start of the flex container */
+}
+
+.option-row .MuiCheckbox-root {
+  margin-top: 4px; /* Adjust as needed to align with the text */
+}
+
+.option-text-field {
+  margin-left: 10px;
+}
+
+.MuiFormControlLabel-root.MuiFormControlLabel-labelPlacementEnd.css-j204z7-MuiFormControlLabel-root {
+  display: flex;
+  padding-top: 10px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: left;
+}
+
+.save-add-button {
+  max-width: 300px;
+  padding-top: 10px;
+}
+
+.save-next-button {
+  max-width: 300px;
+  padding-left: 14px;
+  padding-top: 10px;
+}
+.css-sghohy-MuiButtonBase-root-MuiButton-root {
+  background-color: #f36b37;
+}

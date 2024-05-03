@@ -1,0 +1,13 @@
+.reports-dashboard {
+    margin: 20px;
+  }
+  
+.heading {
+    text-align: center;
+}
+  
+.chart-container {
+    width: 100%;
+    height: 400px;
+}
+  

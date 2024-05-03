@@ -1,0 +1,105 @@
+.modulesButton {
+  background-color: #f36b37;
+  opacity: 0.8;
+  color: #0d0202;
+  border-color: #fff;
+  border-width: 2px;
+  font-size: clamp(0.7rem, 2vw, 1rem);
+  margin-top: 10px;
+}
+
+.modulesButton:hover {
+  background-color: #080000;
+  color: #fff;
+  border-color: #080000;
+  border-width: 2px;
+}
+
+.card {
+  background-color: #fff;
+  color: #f36b37;
+  border-radius: 25px;
+  border: 2px solid #ced4da;
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.075);
+  font-family: sans-serif;
+  min-height: 300px;
+}
+
+.heading {
+  color: #f36b37;
+}
+.search-bar input {
+  width: 100%;
+  max-width: 600px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.add-course-button-courses {
+  margin-top: 2rem !important;
+  margin-bottom: 2rem !important;
+  background: #f36b37 !important;
+  color: white !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  line-height: 19px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 211px !important;
+  height: 56px !important;
+  cursor: pointer !important;
+  border: 2px solid #f26b37 !important;
+  border-radius: 4px !important;
+}
+
+.add-course-button-courses:hover {
+  background: #f36b37 !important;
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.2) !important;
+  border-color: #f36b37 !important;
+}
+
+.add-course-button-courses:active,
+.add-course-button-courses:focus {
+  background-color: #f36b37 !important; /* The color you want */
+  border: 2px solid #f26b37 !important; /* The color you want */
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.2) !important;
+  outline: none !important; /* Removes the outline */
+}
+  .add-course-button-courses {
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+    background: #f36b37 !important;
+    color: white !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 211px !important;
+    height: 56px !important;
+    cursor: pointer !important;
+    border: 2px solid #f26b37 !important;
+    border-radius: 4px !important;
+  }
+  
+  .add-course-button-courses:hover {
+    background: #f36b37 !important;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.2) !important;
+    border-color: #f36b37 !important;
+  }
+  
+  .add-course-button-courses:active,
+  .add-course-button-courses:focus {
+    background-color: #f36b37 !important; /* The color you want */
+    border: 2px solid #f26b37 !important; /* The color you want */
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.2) !important;
+    outline: none !important; /* Removes the outline */
+  }
+  

@@ -1,0 +1,119 @@
+/* Default styles */
+.landing-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: black;
+}
+
+.content-wrapper {
+  display: flex;
+  width: 90%; /* Adjust width as needed */
+}
+
+.LandingPage-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.image-container,
+.text-container {
+  flex: 1;
+  position: relative;
+  padding: 20px; /* Add padding for spacing */
+  box-sizing: border-box; /* Include padding in width calculation */
+  color: white;
+}
+
+.image-container img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain; /* Maintain aspect ratio and fit within container */
+}
+
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-container h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.text-container p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.submit-button {
+  margin-top: 2rem;
+  background: #b26e1c;
+  color: white;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 211px;
+  height: 56px;
+  cursor: pointer;
+  border: 2px solid #b26e1c;
+  border-radius: 4px;
+}
+
+.submit-button:hover {
+  background: #b26e1c;
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.2);
+  border-color: #b26e1c;
+}
+
+.about-buttons-container {
+  margin-top: 20px;
+}
+
+.secondary-button {
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  background-color: #f36b37;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 20px;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .content-wrapper {
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center items horizontally */
+  }
+
+  .container {
+    width: 100%; /* Make container full width */
+  }
+
+  .image-container,
+  .text-container {
+    width: 100%; /* Set width to 100% for smaller screens */
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+}

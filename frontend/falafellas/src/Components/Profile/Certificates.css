@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Diphylleia&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.navbar-second{
+    background-color: #1c1c1c;
+}
+
+.navbar-second-elements{
+    padding-left: 5rem;
+}
+
+.navbar-second-elements .nav-link{
+    padding-left: 5rem;
+    font-size: 18px;
+    color: #f36b37 !important;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .navbar-second-elements{
+        padding-left: 0rem;
+    }
+}
+
+.navbar-second-elements .nav-link:hover,
+.navbar-second-elements .nav-link.active {
+    color: #f36b37; 
+}
+
+.custom-table{
+    max-width: 1000px;
+    margin: 2rem auto; 
+    font-family: "Montserrat", sans-serif;
+
+}
+
+@media (min-width: 1000px) {
+    .custom-table {
+      margin-left: 5rem;
+      margin-right: 1rem;
+    }
+}
+
+.custom-table img{
+    width: 10rem; 
+    height: 7rem;
+}
+
+.custom-table thead th {
+    background-color: #f36b37;
+    /* opacity: 0.8; */
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400; 
+    text-align: center;
+  }
+
+  .custom-table tbody td{
+    font-size: 15px;
+    font-weight: 600;
+    vertical-align: middle;
+    text-align: center;
+  }
+
+

@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.navbar-custom {
+  background-color: #1c1c1c;
+}
+
+.navbar-elements .nav-link {
+  color: #f36b37 !important;
+  /* color: #F26B37 !important; */
+  text-transform: uppercase;
+}
+
+.navbar-elements .nav-link:hover {
+  /* font-weight: 600; */
+  color: #fdf8f3 !important;
+}
+
+.brand-name {
+  background: linear-gradient(to right, #f36b37, #fdf8f3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Pacifico", cursive !important;
+  font-size: 40px !important;
+  padding: 10px !important;
+  font-size: 1.5em;
+  display: inline-block;
+}
+
+.toggle-custom .navbar-toggler-icon {
+  background-image: url('data:image/svg+xml;charset=UTF8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"><path stroke="%23F2F2F2" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/></svg>') !important;
+}
+
+.toggle-custom.navbar-toggler {
+  border: 2px solid #f36b37;
+}
+
+.navbar-custom .dropdown-menu {
+  left: auto;
+  right: 0;
+}
+
+.locator {
+  padding: 0rem !important;
+}
+.navbar-custom .nav-link.dropdown-toggle,
+.navbar-custom .nav-link.dropdown-toggle:focus,
+.navbar-custom .nav-link.dropdown-toggle.show {
+  color: #f36b37;
+}
+
+.navbar-custom .dropdown-menu {
+  background-color: rgba(28, 28, 28, 0.9);
+}
+
+.navbar-custom .dropdown-menu .dropdown-item,
+.navbar-custom .dropdown-menu .dropdown-item .nav-link {
+  color: #f36b37;
+}
+
+.navbar-custom .dropdown-menu .dropdown-item:hover {
+  /* background-color: #1c1c1c; */
+  background-color: #fdf8f3;
+}

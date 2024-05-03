@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Diphylleia&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.editButton, .deleteButton{
+  background-color: #f36b37;
+  opacity: 0.8;
+  color: #fff;
+  border-color: #fff;
+  border-width: 2px;
+  font-size: clamp(0.7rem, 2vw, 1rem);
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.editButton:hover{
+  background-color: #fff;
+  color: #f36b37;
+  border-color: #fff;
+  border-width: 2px;
+}
+
+.deleteButton:hover{
+  background-color: #fff;
+  color: #f36b37;
+  border-color: #fff;
+  border-width: 2px;
+  
+}
+
+.btn-secondary{
+  --bs-btn-active-border-color: #fff;
+  --bs-btn-active-bg: #f36b37;
+}
+
+.bg-img .align-items-center{
+  width: 100%;
+}
+.bg-img {
+  display: flex;
+  align-items: center;
+  background-image: url('../../assets/Profile/wrap.jpg');
+  background-size: cover;
+  height: 55vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.8);
+  background-blend-mode: multiply;
+}
+
+.bg-img img {
+  width: 11rem; 
+  height: 11rem;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #fff;
+  margin-bottom: 0.5rem;
+  margin-top: 3rem;
+}
+
+.bio-text {
+  color: white;
+  font-size: clamp(0.7rem, 2vw, 1rem);
+  font-family: "Montserrat", sans-serif;
+  padding-right: 3rem;
+  text-align: left;
+}
+
+.bio-text h3{
+  text-align: left;
+  padding-bottom: 0.3rem;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+@media (max-width: 768px) {
+  .bio-text h3, div{
+    text-align: center !important;
+    padding-right: 0 !important;
+  }
+
+  .bg-img img{
+    margin-right: -2rem;
+  }
+  .bg-img{
+    height: 60vh;
+  }
+}
+.bg-img img {
+  width: 11rem; 
+  height: 11rem;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #fff;
+  margin-bottom: 0.5rem;
+  margin-top: 3rem;
+}
+@media(min-width: 768px){
+  .bg-img img{
+    margin-top: 0;
+  }
+}
+
+.profile-img{
+  display: flex;
+  justify-content: center;
+}

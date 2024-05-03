@@ -1,0 +1,53 @@
+.admin-dashboard {
+    margin: 30px;
+    text-align: center;
+  }
+  
+  .box-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch; /* Ensure all boxes have the same height */
+    flex-wrap: wrap; /* Allow boxes to wrap onto multiple lines */
+    margin-bottom: 20px;
+  }
+  
+  .box {
+    flex: 1; /* Each box takes equal space */
+    min-width: 200px; /* Set minimum width for each box */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px; /* Add margin between boxes */
+  }
+  
+  .charts {
+    display: flex;
+    justify-content: space-around;
+    overflow-x: auto; /* Allow horizontal scrolling for charts */
+    margin: 0 auto; /* Center charts horizontally */
+    padding-bottom: 20px; /* Add some space at the bottom */
+  }
+  
+  /* Media query for smaller screens */
+  @media screen and (max-width: 768px) {
+    .admin-dashboard {
+      margin: 15px;
+    }
+  
+    .box-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .box {
+      width: 80%; /* Make boxes 80% of the container width */
+      max-width: 300px; /* Limit maximum width of boxes */
+      margin: 10px 0;
+    }
+  
+    .charts {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
